@@ -31,15 +31,14 @@
 		while($row = $STH->fetch()): ?>
 		<div class="item" style="background: #<?= $row->hex; ?>">
 			<div class="item_inner">
-				<p class="hex"><?= $row->hex; ?></p>
+				<input type="text" value="<?= $row->hex; ?>" class="hex"/>
 				<p class="author"><?= $row->author; ?></p>
+				<p class="copy">Ctrl+C/Cmd+C to copy</p>
 			</div>
 		</div>
 	<?php endwhile; ?>
 
-	    <!--$hexArray[]    = $row->hex;
-	    $authorArray[] = $row->author;
-		var_dump($hexArray);
-		[ (badass, bogdan), (eeeeee, jacob), ...]-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script src="js/scripts.js"></script>
 </body>
 </html>
