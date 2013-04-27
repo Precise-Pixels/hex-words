@@ -31,7 +31,7 @@
 		while($row = $STH->fetch()): ?>
 		<div class="item" style="background: #<?= $row->hex; ?>">
 			<div class="item_inner">
-				<input type="text" value="<?= $row->hex; ?>" class="hex"/>
+				<input type="text" value="#<?= $row->hex; ?>" class="hex" disabled/>
 				<p class="author"><?= $row->author; ?></p>
 				<p class="copy">Ctrl+C/Cmd+C to copy</p>
 			</div>
