@@ -21,20 +21,13 @@
 	<?php
 		include("db.php");
 
-		# creating the statement
-		$STH = $DBH->query('SELECT hex, author from hexwords');
+		$hex    = 'CCCCCC';
+		$author = 'Not Jacob';
 
-		# setting the fetch mode
-		$STH->setFetchMode(PDO::FETCH_OBJ);
-
-		# showing the results
-		while($row = $STH->fetch()): ?>
-		<div class="box" style="background: #<?= $row->hex; ?>"><p class="hex"><?= $row->hex; ?></p><p class="author"><?= $row->author; ?></p></div>
-	<?php endwhile; ?>
-
-	    <!--$hexArray[]    = $row->hex;
-	    $authorArray[] = $row->author;
-		var_dump($hexArray);
-		[ (badass, bogdan), (eeeeee, jacob), ...]-->
+		$STH = $DBH->prepare("INSERT INTO hexwords (hex, author) value (:hex, :author)");
+		$STH->bindParam(':hex', $hex);
+		$STH->bindParam(':author', $author);
+		$STH->execute();
+	?>
 </body>
 </html>
