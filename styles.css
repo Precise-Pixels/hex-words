@@ -3,15 +3,15 @@ html {
 }
 
 body {
-	margin: 3%;
+	margin: 5%;
 }
 
 .item {
-	width: 23%;
+	width: 90%;
+	padding-bottom: 90%;
+	margin: 5%;
 	position: relative;
 	float: left;
-	margin: 1%;
-	padding-bottom: 23%;
 	box-shadow: 0 0 5px #000;
 	border-radius: 50%;
 	overflow: hidden;
@@ -46,4 +46,52 @@ body {
 
 .copy {
 	display: none;
+}
+
+@media (min-width: 480px) {
+	body {
+		margin: 3%;
+	}
+
+	.item {
+		width: 44%;
+		padding-bottom: 44%;
+		margin: 3%;
+	}
+}
+
+@media (min-width: 720px) {
+	body {
+		margin: 2%;
+	}
+
+	.item {
+		width: 29%;
+		padding-bottom: 29%;
+		margin: 2%;
+	}
+}
+
+@media (min-width: 1024px) {
+	body {
+		margin: 1%;
+	}
+
+	.item {
+		width: 23%;
+		padding-bottom: 23%;
+		margin: 1%;
+	}
+}
+
+@media (min-width: 1600px) {
+	body {
+		margin: 1%;
+	}
+
+	.item {
+		width: 14.666%;
+		padding-bottom: 14.666%;
+		margin: 1%;
+	}
 }
