@@ -13,10 +13,13 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
+
+	<link href='http://fonts.googleapis.com/css?family=Atomic+Age' rel='stylesheet' type='text/css'>
+
 </head>
 
 <body>
-	<h1>Hex Words</h1>
+	<h1>HEX WORDS</h1>
 
 	<?php
 		include("db.php");
