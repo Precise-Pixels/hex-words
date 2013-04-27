@@ -29,7 +29,12 @@
 
 		# showing the results
 		while($row = $STH->fetch()): ?>
-		<div class="box" style="background: #<?= $row->hex; ?>"><p class="hex"><?= $row->hex; ?></p><p class="author"><?= $row->author; ?></p></div>
+		<div class="item" style="background: #<?= $row->hex; ?>">
+			<div class="item_inner">
+				<p class="hex"><?= $row->hex; ?></p>
+				<p class="author"><?= $row->author; ?></p>
+			</div>
+		</div>
 	<?php endwhile; ?>
 
 	    <!--$hexArray[]    = $row->hex;
