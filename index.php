@@ -38,6 +38,14 @@
 		</div>
 	<?php endwhile; ?>
 
+	<div class="item new">
+		<div class="item_inner">
+			<input type="text" name="hex_input" value="#FFFFFF" class="hex"/>
+			<p class="author">by <input type="text" name="author_input" placeholder="YOUR NAME"/></p>
+			<p>Submit your own</p>
+		</div>
+	</div>
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 	<script src="js/scripts.js"></script>
 </body>
