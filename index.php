@@ -31,7 +31,7 @@
 
 		# showing the results
 		while($row = $STH->fetch()): ?>
-		<div class="item" style="background: #<?= $row->hex; ?>">
+		<div class="item shadow" style="background: #<?= $row->hex; ?>">
 			<div class="item_inner">
 				<input type="text" value="#<?= $row->hex; ?>" class="hex"/>
 				<p class="author">by <?= $row->author; ?></p>
@@ -42,7 +42,7 @@
 
 	<div class="item new">
 		<div class="item_inner">
-			<input type="text" name="hex_input" value="#FFFFFF" class="hex"/>
+			<input type="text" name="hex_input" value="#EEEEEE" class="hex"/>
 			<p class="author">by <input type="text" name="author_input" placeholder="YOUR NAME"/></p>
 			<p>Submit your own</p>
 		</div>
