@@ -31,7 +31,7 @@
 
 		# showing the results
 		while($row = $STH->fetch()): ?>
-		<div class="item shadow" style="background: #<?= $row->hex; ?>">
+		<div class="item" style="background: #<?= $row->hex; ?>">
 			<div class="item_inner">
 				<input type="text" value="#<?= $row->hex; ?>" class="hex"/>
 				<p class="author">by <?= $row->author; ?></p>
