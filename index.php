@@ -18,7 +18,7 @@
 
 <body>
 	<h1>HEX WORDS</h1>
-	<h2>A collection of user submitted hexadecimal colours that also resemble words</h2>
+	<h2>A collection of user submitted hexadecimal colours that also resemble words.</h2>
 
 	<?php
 		include("db.php");
