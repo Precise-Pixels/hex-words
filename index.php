@@ -2,24 +2,23 @@
 <html>
 <head>
     <meta charset="utf-8">
-	<meta name="description" content="">
+	<meta name="description" content="A collection of user submitted hexadecimal colours that also resemble words">
 	<meta name="author" content="Precise Pixels">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<title>Hex Words</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href='http://fonts.googleapis.com/css?family=Atomic+Age' rel='stylesheet' type='text/css'>
 	<!--[if IE]>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
-
-	<link href='http://fonts.googleapis.com/css?family=Atomic+Age' rel='stylesheet' type='text/css'>
-
 </head>
 
 <body>
 	<h1>HEX WORDS</h1>
+	<h2>A collection of user submitted hexadecimal colours that also resemble words</h2>
 
 	<?php
 		include("db.php");

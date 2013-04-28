@@ -6,13 +6,17 @@ body {
 	margin: 5%;
 	background-image: url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAABkAAD/4QNvaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjMtYzAxMSA2Ni4xNDU2NjEsIDIwMTIvMDIvMDYtMTQ6NTY6MjcgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6NTBGMDQ2NEMwQzIwNjgxMTgwODlFMjU5NTAyRDZBQzIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MUY1QkFFRDVBRjVCMTFFMjg2QTQ4NDAwN0ZEMTg3RkEiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MUY1QkFFRDRBRjVCMTFFMjg2QTQ4NDAwN0ZEMTg3RkEiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNCBNYWNpbnRvc2giPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoxRTNEMzBFMjFDMjA2ODExODA4OUUyNTk1MDJENkFDMiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo1MEYwNDY0QzBDMjA2ODExODA4OUUyNTk1MDJENkFDMiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pv/uAA5BZG9iZQBkwAAAAAH/2wCEAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQECAgICAgICAgICAgMDAwMDAwMDAwMBAQEBAQEBAgEBAgICAQICAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA//AABEIAAkACQMBEQACEQEDEQH/xABhAAADAQAAAAAAAAAAAAAAAAADBAUKAQEBAQAAAAAAAAAAAAAAAAABAAIQAAEEAQALAAAAAAAAAAAAAAEAAgMEETFB0RKyE3OTFDRUEQEBAQAAAAAAAAAAAAAAAAAAIUH/2gAMAwEAAhEDEQA/AN59avC6vAeRESYmEuMbSc4072Na2yd8av8ANB2m7FQwGp60XTZwhWDFNJf/2Q==);
 	text-align: center;
-	-webkit-transition: all 1s ease;
-	-moz-transition: all 1s ease;
-	-o-transition: all 1s ease;
-	transition: all 1s ease;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
 }
 
-h1 { font-family: 'Atomic Age', cursive; font-size: 5em;}
+h1 {
+	margin-bottom: 0;
+	font-family: 'Atomic Age', cursive;
+	font-size: 5em;
+}
 
 .item {
 	width: 90%;
@@ -24,17 +28,17 @@ h1 { font-family: 'Atomic Age', cursive; font-size: 5em;}
 	overflow: hidden;
 	cursor: pointer;
 
-	-webkit-transition: box-shadow 1s ease;
-	-moz-transition: box-shadow 1s ease;
-	-o-transition: box-shadow 1s ease;
-	transition: box-shadow 1s ease;
+	-webkit-transition: box-shadow 1s;
+	-moz-transition: box-shadow 1s;
+	-o-transition: box-shadow 1s;
+	transition: box-shadow 1s;
 }
 
 .item:hover {
 
-	-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0 0 15px rgba(0,0,0,0.75);
-	box-shadow: 0 0 15px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 0 0 15px rgba(0,0,0,.75);
+	-moz-box-shadow: 0 0 15px rgba(0,0,0,.75);
+	box-shadow: 0 0 15px rgba(0,0,0,.75);
 }
 
 .item_inner {
