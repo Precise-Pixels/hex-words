@@ -39,9 +39,10 @@
 
 	<div class="item new">
 		<div class="item_inner">
-			<input type="text" name="hex_input" value="#EEEEEE" class="hex"/>
-			<p class="author">by <input type="text" name="author_input" placeholder="YOUR NAME"/></p>
-			<p>Submit your own</p>
+			<p id="submityourown">Submit your own</p>
+			<input type="text" id="hex_input" class="hex" value="#EEEEEE"/>
+			<p class="author"><input type="text" id="author_input" placeholder="ENTER YOUR NAME"/></p>
+			<input type="submit" id="submit" value="Submit"/>
 		</div>
 	</div>
 
