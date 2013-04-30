@@ -12,6 +12,21 @@ body {
 	transition: all 1s;
 }
 
+#footer {
+	width: 100%;
+	height: 30px;
+	padding-top: 10px;
+	clear: both;
+}
+
+#copyright {
+	float: left;
+}
+
+#github {
+	float: right;
+}
+
 h1 {
 	margin-bottom: 0;
 	font-family: 'Atomic Age', cursive;

@@ -46,6 +46,11 @@
 		</div>
 	</div>
 
+	<div id="footer">
+		<span id="copyright">&copy; <a href="http://precisepixels.co.uk/" target="_blank">PrecisePixels</a> 2013</span>
+		<span id="github"><a href="https://github.com/Precise-Pixels/hex-words/" target="_blank">View on GitHub</a></span>
+	</div>
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 	<script src="js/scripts.js"></script>
 </body>
