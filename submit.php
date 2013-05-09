@@ -3,7 +3,7 @@
 	$author = $_GET['author'];
 
 	if (preg_match("/^\#?[A-Fa-f0-9]{3}([A-Fa-f0-9]{3})?$/", $hex)) {
-		$hexNoHash = substr($hex, 1);
+		$hexNoHash = (preg_match("/^\#[A-Fa-f0-9]{3}([A-Fa-f0-9]{3})?$/", $hex) ? substr($hex, 1) : $hex);
 
 		include("db.php");
 
